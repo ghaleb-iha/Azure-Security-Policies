@@ -1,0 +1,32 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "iha-business-tag",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/871b6d14-10aa-478d-b590-94f262ecfa99",
+  "scope": "/providers/Microsoft.Management/managementGroups/mg-iha",
+  "notScopes": [
+   "/providers/Microsoft.Management/managementGroups/mg-sandbox"
+  ],
+  "parameters": {
+   "tagName": {
+    "value": "ih:business:application"
+   }
+  },
+  "description": "tag-ih:business:application",
+  "metadata": {
+   "assignedBy": "Ghaleb Nabulsi",
+   "parameterScopes": {},
+   "createdBy": "5cebfed1-1737-47f9-8700-ed7fa9f88669",
+   "createdOn": "2022-05-11T12:51:57.2139442Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "DoNotEnforce"
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/mg-iha/providers/Microsoft.Authorization/policyAssignments/168207cb500246bba88987a2",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "168207cb500246bba88987a2"
+}
