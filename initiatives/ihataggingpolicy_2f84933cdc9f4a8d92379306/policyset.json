@@ -1,0 +1,32 @@
+{
+ "properties": {
+  "displayName": "ihataggingpolicy",
+  "policyType": "Custom",
+  "description": "Policy initiative for IHA standard tags",
+  "metadata": {
+   "category": "ihatesting",
+   "version": "1.0",
+   "createdBy": "42aa6cbf-d64a-4409-9782-8dc1a3d499aa",
+   "createdOn": "2022-06-27T12:54:20.7789521Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Append a tag and its value from the resource group_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9ea02ca2-71db-412d-8b00-7c7ca9fcd32d",
+    "parameters": {
+     "tagName": {
+      "value": "ih:business:application"
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/mg-iha/providers/Microsoft.Authorization/policySetDefinitions/2f84933cdc9f4a8d92379306",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "2f84933cdc9f4a8d92379306"
+}

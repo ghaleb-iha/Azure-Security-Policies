@@ -1,0 +1,48 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "identity": {
+  "principalId": "1329ca0b-800e-4d5d-bfef-633509fb128a",
+  "tenantId": "5137efc8-cc49-417f-a7a2-c37e43c9d02b",
+  "type": "SystemAssigned"
+ },
+ "properties": {
+  "displayName": "HITRUST/HIPAA",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/a169a624-5599-4385-a696-c8d643089fab",
+  "scope": "/providers/Microsoft.Management/managementGroups/mg-iha",
+  "notScopes": [
+   "/providers/Microsoft.Management/managementGroups/mg-sandbox"
+  ],
+  "parameters": {
+   "installedApplicationsOnWindowsVM": {
+    "value": "test"
+   },
+   "DeployDiagnosticSettingsforNetworkSecurityGroupsstoragePrefix": {
+    "value": "ihahippa"
+   },
+   "DeployDiagnosticSettingsforNetworkSecurityGroupsrgName": {
+    "value": "iro"
+   },
+   "CertificateThumbprints": {
+    "value": "changeme"
+   }
+  },
+  "metadata": {
+   "assignedBy": "Ghaleb Nabulsi",
+   "parameterScopes": {
+    "DeployDiagnosticSettingsforNetworkSecurityGroupsrgName": "/subscriptions/c2be3e95-d943-4dc1-b156-5c844ae7708b"
+   },
+   "createdBy": "5cebfed1-1737-47f9-8700-ed7fa9f88669",
+   "createdOn": "2022-06-15T12:38:14.4413374Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/mg-iha/providers/Microsoft.Authorization/policyAssignments/ec4f6944ede1433083390e44",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "ec4f6944ede1433083390e44",
+ "location": "eastus"
+}
